@@ -1,4 +1,4 @@
-This is a simple implementation of a bluetooth to NRF24L01 transmitter done with an ESP32 DevkitC v4. 
+This is a simple implementation of a bluetooth to NRF24L01 transmitter using a ESP32 DevkitC v4. 
 It expects any bluepad32 compatible controller, receives the commands from it once connected, then it sends it accordingly via an NRF24L01.
 
 **You need to include the following libraries in your IDE:**
