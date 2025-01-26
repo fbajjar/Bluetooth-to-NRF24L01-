@@ -7,5 +7,5 @@ It expects any bluepad32 compatible controller, receives the commands from it on
 - SPI
 
 **IMPORTANT:**
-- Change CE_PIN and CSN_PIN according to where you wired the CE pin and CSN pin of the NRF24L01 to your ESP32.
+- Change CE_PIN and CSN_PIN according to the pin numbers you wired for CE pin and CSN pin of NRF24L01 to your ESP32.
 - Ensure the const uint8_t address defined for openWritingPipe is the SAME as the one you are going to use in openReadingPipe->The transmitter address MUST match the receiver address
